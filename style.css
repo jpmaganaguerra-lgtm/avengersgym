@@ -82,7 +82,8 @@ p { margin: 0; }
   font-family: var(--font-display); font-weight: 900; font-style: italic; font-size: 1.9rem;
   color: var(--color-white); text-decoration: none; text-transform: uppercase; line-height: 1;
 }
-.wordmark span { color: var(--color-red); }
+.brand-logo { display: inline-flex; line-height: 0; }
+.brand-logo img { width: clamp(124px, 14vw, 168px); height: auto; }
 .nav { display: flex; gap: 1.4rem; align-items: center; }
 .nav a { text-decoration: none; font-size: 0.9rem; font-weight: 500; color: var(--color-light); }
 .nav a:hover { color: var(--color-red); }
